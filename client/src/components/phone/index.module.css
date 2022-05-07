@@ -1,0 +1,70 @@
+
+.container {
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    padding: 7px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 15px;
+    background-color: #eeeeee;
+}
+.container:hover {
+    box-shadow: 4px 2px 1px #af8c8c;
+}
+
+.country {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.image {
+    margin: 0 15px;
+}
+
+.phone {
+    flex: 1;
+}
+
+.delete {
+    cursor: pointer;
+    padding: 0 5px;
+    height: 30px;
+}
+
+@media screen and (max-width: 620px){
+    .container {
+        font-size: 16px;
+    }
+    .image .phone .country {
+        flex: .3;
+    }
+
+}
+@media screen and (max-width: 580px) {
+    .countryName {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .countryPhone {
+        display: none;
+    }
+    .country {
+        flex: .1;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .container {
+        flex-direction: column;
+    }
+    .image .phone .country {
+        flex: 1;
+    }
+    .phone {
+        margin: 10px 0;
+    }
+}

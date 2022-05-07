@@ -3,3 +3,59 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.app {
+    max-width: 1030px;
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 20px 15px 0 15px;
+}
+
+.app__select {
+    padding: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+.app__input {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.app__input p {
+    height: 30px;
+    padding: 2px 5px 0 5px;
+    border: 1px solid black;
+    margin-right: 2px;
+    border-radius: 5px;
+}
+
+.app__input input {
+    border-radius: 5px;
+}
+
+.app__phone-code {
+    width: 50px;
+}
+
+.app__phone {
+    height: 30px;
+    padding: 5px;
+    font-size: 18px;
+    width: 150px;
+}
+
+.app__add-btn {
+    height: 30px;
+    padding: 0 10px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.app__error {
+    padding-top: 15px;
+    color: #d92121;
+    height: 40px;
+}
